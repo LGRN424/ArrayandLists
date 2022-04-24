@@ -6,8 +6,7 @@ using System.Collections.Generic;
     {
         static void Main()
         {
-
-        
+               
         //Set up of string array
         String[] planes = new String[] { "Airbus", "Boeing", "Learjet" , "Embraer" };
 
@@ -20,7 +19,7 @@ using System.Collections.Generic;
         //Index not in range message
         if (n > planes.Length)
         {
-            Console.WriteLine("You picked a index number that does not exist.");
+            Console.WriteLine("You picked a index number that does not exist!");
         }
 
         //Display item within range
@@ -39,7 +38,7 @@ using System.Collections.Generic;
         //Index out of range message
         if (p > pilotsNeeded.Length)
         {
-            Console.WriteLine("You picked a index number that does not exist.");
+            Console.WriteLine("You picked a index number that does not exist!");
         }
 
         //Display item within range
